@@ -175,3 +175,16 @@ Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f5
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 104.34.180.116 at 2018-09-05 12:18:28 +0000
+
+
+Started GET "/" for 104.34.180.116 at 2018-09-05 12:19:09 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 27ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 104.34.180.116 at 2018-09-05 12:19:14 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 227ms (Views: 226.4ms | ActiveRecord: 0.0ms)
